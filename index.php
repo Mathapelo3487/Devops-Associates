@@ -26,10 +26,10 @@
        <input type="submit" name="load_data" value="Load Data" />
  </form>
  <?php
-    $host = "azureuser123.database.windows.net";
-    $user = "anderson";
-    $pass = "Asharne12345";
-    $db = "azureuser123";
+    $host = "devopsaa.database.windows.net";
+    $user = "devopsaa";
+    $pass = "Thape3487#";
+    $db = "db1";
 
     try {
         $conn = new PDO("sqlsrv:server = $host; Database = $db", $user, $pass);
@@ -45,7 +45,7 @@
             $job = $_POST['job'];
             $date = date("Y-m-d");
             // Insert data
-            $sql_insert = "INSERT INTO lists (name, email, job, date) 
+            $sql_insert = "INSERT INTO gg(name, email, job, date) 
                         VALUES ('$name', '$email', '$job', '$date')";
             $stmt = $conn->prepare($sql_insert);
             $stmt->bindValue(1, $name);
