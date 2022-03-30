@@ -93,6 +93,6 @@
 <hr>
 <div class="row">
     <div class="col-md-12">
-        <img src="<?= validate_image($_settings->info('cover')) ?>" alt="Website Cover" class="img-fluid border w-100" id="website-cover">
+        <img src="http://localhost/vims/uploads/hollardban.jpg" alt="Website Cover" class="img-fluid border w-100" id="website-cover">
     </div>
 </div>
