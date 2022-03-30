@@ -45,7 +45,11 @@
 	            </div>
 			</div>
 			<div class="form-group d-flex justify-content-center">
+<<<<<<< HEAD
 				<img src="http://localhost/vims/uploads/hollardlogo.png" alt="" id="cimg" class="img-fluid img-thumbnail">
+=======
+				<img src="http://localhost/vims/uploads/6.jpeg" alt="" id="cimg" class="img-fluid img-thumbnail">
+>>>>>>> 019ab28517a6028d9fefefb6118c8a4ee36785bc
 			</div>
 			<div class="form-group">
 				<label for="" class="control-label">Cover</label>
@@ -55,10 +59,15 @@
 	            </div>
 			</div>
 			<div class="form-group d-flex justify-content-center">
+<<<<<<< HEAD
 				<img src="http://localhost/vims/uploads/hollardlogo.png" alt="" id="cimg2" class="img-fluid img-thumbnail bg-gradient-dark border-dark">
+=======
+				<img src="http://localhost/vims/uploads/hollard.png" alt="" id="cimg2" class="img-fluid img-thumbnail bg-gradient-dark border-dark">
+>>>>>>> 019ab28517a6028d9fefefb6118c8a4ee36785bc
 			</div>
 			</form>
 		</div>
+		
 		<div class="card-footer">
 			<div class="col-md-12">
 				<div class="row">
