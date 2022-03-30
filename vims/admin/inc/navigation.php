@@ -43,7 +43,7 @@
                       <a href="<?php echo base_url ?>admin/?page=insurances" class="nav-link nav-insurances">
                         <i class="nav-icon fas fa-file-alt"></i>
                         <p>
-                          Insurances
+                          Contracts
                         </p>
                       </a>
                     </li>
@@ -52,7 +52,7 @@
                         <a href="<?php echo base_url ?>admin/?page=reports/date_wise_transaction" class="nav-link nav-reports_date_wise_transaction">
                           <i class="nav-icon fas fa-circle"></i>
                           <p>
-                            Date-wise Transactions
+                            Transactions
                           </p>
                         </a>
                       </li>
@@ -61,7 +61,7 @@
                       <a href="<?php echo base_url ?>admin/?page=categories" class="nav-link nav-categories">
                         <i class="nav-icon fas fa-list"></i>
                         <p>
-                         Category List
+                         Insurance Packages
                         </p>
                       </a>
                     </li>
@@ -69,7 +69,7 @@
                       <a href="<?php echo base_url ?>admin/?page=policies" class="nav-link nav-policies">
                         <i class="nav-icon fas fa-table"></i>
                         <p>
-                          Policies List
+                          Policy Type
                         </p>
                       </a>
                     </li>

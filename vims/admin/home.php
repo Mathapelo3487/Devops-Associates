@@ -14,7 +14,7 @@
             <span class="info-box-icon bg-gradient-primary elevation-1"><i class="fas fa-th-list"></i></span>
 
             <div class="info-box-content">
-            <span class="info-box-text">Total Categories</span>
+            <span class="info-box-text">Total Packages</span>
             <span class="info-box-number text-right">
                 <?php 
                     echo $conn->query("SELECT * FROM `category_list` where delete_flag= 0 and `status` = 1 ")->num_rows;
@@ -46,7 +46,7 @@
             <span class="info-box-icon bg-gradient-maroon elevation-1"><i class="fas fa-file-alt"></i></span>
 
             <div class="info-box-content">
-            <span class="info-box-text">Inctive Policies</span>
+            <span class="info-box-text">Inactive Policies</span>
             <span class="info-box-number text-right">
                 <?php 
                     echo $conn->query("SELECT * FROM `policy_list` where `status` = 1 ")->num_rows;
@@ -78,7 +78,7 @@
             <span class="info-box-icon bg-gradient-teal elevation-1"><i class="fas fa-car"></i></span>
 
             <div class="info-box-content">
-            <span class="info-box-text">Insured Vehicle</span>
+            <span class="info-box-text">Vehicles Insured</span>
             <span class="info-box-number text-right">
                 <?php 
                     echo $conn->query("SELECT * FROM `insurance_list` where `status` = 1 and date(expiration_date) > '".(date("Y-m-d"))."' ")->num_rows;

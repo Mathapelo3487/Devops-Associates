@@ -1,3 +1,5 @@
+// small change
+
 <style>
     .img-thumb-path{
         width:100px;
@@ -8,10 +10,10 @@
 </style>
 <div class="card card-outline card-primary rounded-0 shadow">
 	<div class="card-header">
-		<h3 class="card-title">List of Category</h3>
+		<h3 class="card-title">List of Packages</h3>
 		<?php if($_settings->userdata('type') == 1): ?>
 		<div class="card-tools">
-			<a href="javascript:void(0)" id="create_new" class="btn btn-flat btn-sm btn-primary"><span class="fas fa-plus"></span>  Add New Category</a>
+			<a href="javascript:void(0)" id="create_new" class="btn btn-flat btn-sm btn-primary"><span class="fas fa-plus"></span>  Add New Package</a>
 		</div>
 		<?php endif; ?>
 	</div>
@@ -31,7 +33,7 @@
 					<tr class="bg-gradient-primary text-light">
 						<th>#</th>
 						<th>Date Created</th>
-						<th>Name</th>
+						<th>Type</th>
 						<th>Description</th>
 						<th>Status</th>
 						<th>Action</th>
