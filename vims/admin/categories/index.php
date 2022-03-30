@@ -1,3 +1,5 @@
+// small change
+
 <style>
     .img-thumb-path{
         width:100px;
