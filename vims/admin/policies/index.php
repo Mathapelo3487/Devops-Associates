@@ -33,8 +33,8 @@
 						<th>#</th>
 						<th>Date Created</th>
 						<th>Code</th>
-						<th>Name</th>
-						<th>Cost/Duration</th>
+						<th>Policy Type</th>
+						<th>Rand/Duration</th>
 						<th>Status</th>
 						<th>Action</th>
 					</tr>

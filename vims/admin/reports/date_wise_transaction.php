@@ -10,9 +10,11 @@
 $from = isset($_GET['from']) ? $_GET['from'] : date("Y-m-d",strtotime(date("Y-m-d")." -1 week")); 
 $to = isset($_GET['to']) ? $_GET['to'] : date("Y-m-d",strtotime(date("Y-m-d"))); 
 ?>
+
+
 <div class="card card-outline card-primary rounded-0 shadow">
 	<div class="card-header">
-		<h3 class="card-title">Date-wise Transaction Report</h3>
+		<h3 class="card-title">Transactions</h3>
 		<div class="card-tools">
 		</div>
 	</div>
@@ -54,7 +56,8 @@ $to = isset($_GET['to']) ? $_GET['to'] : date("Y-m-d",strtotime(date("Y-m-d")));
 				</div>
 				<div class="col-8">
 					<h4 class="text-center"><b><?= $_settings->info('name') ?></b></h4>
-					<h3 class="text-center"><b>Date-wise Insurance Transaction Report</b></h3>
+
+					<h3 class="text-center"><b>Transaction Reports</b></h3>
 					<h5 class="text-center"><b>as of</b></h5>
 					<?php if($from == $to): ?>
 					<h5 class="text-center"><b><?= date("F d, Y", strtotime($from)) ?></b></h5>
