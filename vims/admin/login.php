@@ -37,11 +37,7 @@
   <div class="h-100 d-flex align-items-center w-100" id="login">
     <div class="col-7 h-100 d-flex align-items-center justify-content-center">
       <div class="w-100">
-<<<<<<< HEAD
-        <center><img src="http://localhost/vims/uploads/hollardlog.jpg" alt="" id="logo-img" alt="" id="logo-img"></center>
-=======
         <center><img src="http://localhost/vims/uploads/9.jpeg" alt="" id="logo-img"></center>
->>>>>>> 7dd7cea46b472e9556de4adfbe2a78c44ff3e8f7
         <h1 class="text-center py-5 login-title"><b><?php echo $_settings->info('name') ?></b></h1>
       </div>
       
