@@ -1,5 +1,4 @@
 # Devops-Associates
-Table of Contents
 # About the project
 This is a PHP entitled Vehicle Insurance Management System. It is a
 web-based application that was developed in PHP and MySQL Database which helps
@@ -10,7 +9,8 @@ pleasant user interface using the Bootstrap Framework and AdminLTE Template. It
 also has user-friendly features and functionalities.
 # The Project
 
-**Built With**
+## Built With 
+
 PHP Version 8.0.7
 PHP Language
 MySQL Database
@@ -22,8 +22,8 @@ Ajax
 Bootstrap
 AdminLTE
 # Getting Started
-**Prerequisites**
-## How to Run on Azure
+## Prerequisites
+**How to Run on Azure**
 Azure Services 
 Azure/CI/CD Devops Agile
 ## Installation
