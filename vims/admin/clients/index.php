@@ -1,3 +1,5 @@
+<!-- We commented out all code related to the "Image" column in the table containing a list of clients -->
+
 <style>
     .img-thumb-path{
         height:100px;
@@ -6,6 +8,7 @@
         object-position:center center;
     }
 </style>
+
 <div class="card card-outline card-primary rounded-0 shadow">
 	<div class="card-header">
 		<h3 class="card-title">List of Clients</h3>
@@ -22,7 +25,7 @@
 				<colgroup>
 					<col width="5%">
 					<col width="15%">
-					<col width="15%">
+					<!-- <col width="15%"> -->
 					<col width="15%">
 					<col width="30%">
 					<col width="10%">
@@ -32,7 +35,7 @@
 					<tr class="bg-gradient-primary text-light">
 						<th>#</th>
 						<th>Date Created</th>
-						<th>Image</th>
+						<!-- <th>Image</th> -->
 						<th>Code</th>
 						<th>Name</th>
 						<th>Status</th>
@@ -48,7 +51,7 @@
 						<tr>
 							<td class="text-center"><?php echo $i++; ?></td>
 							<td class=""><?php echo date("Y-m-d H:i",strtotime($row['date_created'])) ?></td>
-							<td class="text-center"><img src="<?= validate_image($row['image_path']) ?>" alt="" class="img-thumb-path img-thumbnail bg-gradient-gray"></td>
+							<!-- <td class="text-center"><img src="<?= validate_image($row['image_path']) ?>" alt="" class="img-thumb-path img-thumbnail bg-gradient-gray"></td> -->
 							<td class=""><p class="m-0 truncate-1"><?php echo $row['code'] ?></p></td>
 							<td class=""><p class="m-0 truncate-1"><?php echo ucwords($row['fullname']) ?></p></td>
 							<td class="text-center">

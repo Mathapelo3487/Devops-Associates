@@ -33,6 +33,7 @@
 						<th>#</th>
 						<th>Date Created</th>
 						<th>Code</th>
+						<!-- Changed the table column name from "Policy" to "Policy Type" -->
 						<th>Policy Type</th>
 						<th>Rand/Duration</th>
 						<th>Status</th>

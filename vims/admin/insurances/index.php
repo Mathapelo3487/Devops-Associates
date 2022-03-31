@@ -1,4 +1,3 @@
-
 <style>
     .img-thumb-path{
         height:100px;
@@ -10,8 +9,10 @@
 
 <div class="card card-outline card-primary rounded-0 shadow">
 	<div class="card-header">
+		<!-- Changed "Insurances" to Contracts on page display -->
 		<h3 class="card-title">List of Contracts</h3>
 		<?php if($_settings->userdata('type') == 1): ?>
+			<!-- Changed "Insurances" to Contracts on page display -->
 		<div class="card-tools">
 			<a href="javascript:void(0)" id="create_new" class="btn btn-flat btn-sm btn-primary"><span class="fas fa-plus"></span>  Add New Contracts</a>
 		</div>

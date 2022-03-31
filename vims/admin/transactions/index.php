@@ -8,6 +8,7 @@
 </style>
 <div class="card card-outline card-primary rounded-0 shadow">
 	<div class="card-header">
+		<!-- Changed wording on sidebar and on main page to describe the page better -->
 		<h3 class="card-title">List of Transactions</h3>
 		<div class="card-tools">
 			<a href="./?page=transcations/manage_transction" class="btn btn-flat btn-sm btn-primary"><span class="fas fa-plus"></span>  Add New Transaction</a>

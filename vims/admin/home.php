@@ -93,6 +93,10 @@
 <hr>
 <div class="row">
     <div class="col-md-12">
+<<<<<<< HEAD
+        <img src="http://localhost/vims/uploads/purple car.jpg" alt="Website Cover" class="img-fluid border w-100" id="website-cover">
+=======
         <img src="http://localhost/vims/uploads/7.jpeg" alt="Website Cover" class="img-fluid border w-100" id="website-cover">
+>>>>>>> 7dd7cea46b472e9556de4adfbe2a78c44ff3e8f7
     </div>
 </div>
