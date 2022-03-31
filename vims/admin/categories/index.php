@@ -3,8 +3,9 @@
         width:100px;
         height:80px;
         object-fit:scale-down;
-        object-position:center center;
+        object-position:center center; 
     }
+	//comment
 </style> 
 <div class="card card-outline card-primary rounded-0 shadow">
 	<div class="card-header">
