@@ -12,7 +12,7 @@
       width:calc(100%) !important;
     }
     body{
-      background-image: url("<?php echo validate_image($_settings->info('cover')) ?>");
+      background-image: url("http://localhost/vims/uploads/7.jpeg");
       background-size:cover;
       background-repeat:no-repeat;
     }
