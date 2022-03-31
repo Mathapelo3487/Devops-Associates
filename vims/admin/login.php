@@ -12,7 +12,6 @@
       width:calc(100%) !important;
     }
     body{
-      background-image: url("http://localhost/vims/uploads/backr.jpg");
       background-image: url("http://localhost/vims/uploads/1.jpeg");
       background-size:cover;
       background-repeat:no-repeat;
