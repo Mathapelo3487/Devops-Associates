@@ -45,7 +45,7 @@
 	            </div>
 			</div>
 			<div class="form-group d-flex justify-content-center">
-				<img src="<?php echo validate_image($_settings->info('logo')) ?>" alt="" id="cimg" class="img-fluid img-thumbnail">
+				<img src="http://localhost/vims/uploads/6.jpeg" alt="" id="cimg" class="img-fluid img-thumbnail">
 			</div>
 			<div class="form-group">
 				<label for="" class="control-label">Cover</label>
@@ -55,10 +55,11 @@
 	            </div>
 			</div>
 			<div class="form-group d-flex justify-content-center">
-				<img src="<?php echo validate_image($_settings->info('cover')) ?>" alt="" id="cimg2" class="img-fluid img-thumbnail bg-gradient-dark border-dark">
+				<img src="http://localhost/vims/uploads/hollard.png" alt="" id="cimg2" class="img-fluid img-thumbnail bg-gradient-dark border-dark">
 			</div>
 			</form>
 		</div>
+		
 		<div class="card-footer">
 			<div class="col-md-12">
 				<div class="row">
