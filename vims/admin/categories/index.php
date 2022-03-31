@@ -1,3 +1,7 @@
+
+<!-- Changed wording from "Categories" to "Packages" on the main page to describe the page in a clearer, more precise way -->
+
+
 <style>
     .img-thumb-path{
         width:100px;
@@ -31,6 +35,7 @@
 					<tr class="bg-gradient-primary text-light">
 						<th>#</th>
 						<th>Date Created</th>
+						<!-- Changed table heading from "Name" to "Type" -->
 						<th>Type</th>
 						<th>Description</th>
 						<th>Status</th>
