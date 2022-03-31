@@ -5,7 +5,7 @@
         object-fit:scale-down;
         object-position:center center;
     }
-</style> //comm
+</style> 
 <div class="card card-outline card-primary rounded-0 shadow">
 	<div class="card-header">
 		<h3 class="card-title">List of Packages</h3>
