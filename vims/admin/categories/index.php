@@ -1,5 +1,5 @@
 
-<!-- Changed wording from "Categories" to "Packages" on the main page to describe the page in a clearer, more precise way -->
+<!--  Changed wording from "Categories" to "Packages" on the main page to describe the page in a clearer, more precise way -->
 
 
 <style>
